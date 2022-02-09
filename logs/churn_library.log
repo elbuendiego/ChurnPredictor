@@ -1,0 +1,47 @@
+root - INFO - Testing import_data: SUCCESS
+
+root - INFO - Testing general_eda: SUCCESS
+
+root - INFO - Testing feature_dist: SUCCESS
+
+root - ERROR - Testing feature_dist: hello not in data column names.
+
+root - INFO - Testing feature_dist: SUCCESS
+
+root - INFO - Testing feature_dist: input is ['Dependent_count']
+root - ERROR - Testing feature_dist: input must be string.
+
+root - INFO - Testing bivariate_dist: SUCCESS
+
+root - ERROR - Testing bivariate_dist: input ['Customer', 'Months'] not in data column names.
+
+root - INFO - Testing bivariate_dist: input is of length 1
+root - ERROR - Testing bivariate_dist: input iterable must have 2 entries.
+
+root - INFO - Testing bivariate_dist: input is of length 14
+root - ERROR - Testing bivariate_dist: input iterable must have 2 entries.
+
+root - ERROR - Testing feature_engineering: must call encoder_helper module.
+
+root - INFO - Testing encoder_helper: input is [1]
+root - ERROR - Testing encoder_helper: input must be string, not in column names.
+
+root - INFO - Testing ecoder_helper: SUCCESS
+
+root - ERROR - Testing train_models: must call feature_engineering module.
+
+root - INFO - Testing feature_engineering: input is .1
+root - ERROR - Testing feature_engineering: input must be float or left empty.
+
+root - INFO - Testing feature_engineering: SUCCESS
+
+root - ERROR - Testing classification_report_image: must call train_models module.
+
+root - ERROR - Testing train_models: inputs must be iterables containing int.
+
+root - INFO - Testing train_models: SUCCESS
+
+root - INFO - Testing classification_report_image: SUCCESS
+
+root - INFO - Testing feature_importance_plot: SUCCESS
+

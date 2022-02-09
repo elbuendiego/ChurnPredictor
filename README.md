@@ -44,3 +44,5 @@ A ChurnPredictor class instance churn_predictor is created with churn_predictor 
 * train_models(n_estimators, max_depth, max_iter): Trains a random forest classifier (rf) and a logistic regression classifier (lrc), the models being stored in attributes rfc and lrc, respectively, and saved to ./models. The rfc is trained by performing scikit-learn's GridSearchCV on values n_estimators and max_depth. max_iter specifies the maximum number of iterations to fit lrc. Refer to https://scikit-learn.org/ documentation for more information.
 * classification_report_image(): Creates a classification report for each model. It also displays ROC curves and AUC values. Report and ROC curve mages are saved to ./images/results
 * feature_importance_plot(): Displays an rfc feature importance plot, and saves to ./images/results
+
+Examples can be found in the Jupyter notebook churn_notebook.ipynb
